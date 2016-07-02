@@ -40,5 +40,7 @@ git push
 git branch conflict
 git checkout master
 git commit
-git push
 git pull
+[resolving conflict]
+git push
+
