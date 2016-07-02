@@ -1,0 +1,44 @@
+1. Робота з бренчами
+git branch architecture
+git checkout architecture
+git add .
+git commit -m "add index.html"
+git push --set-upstream origin architecture
+git add assets/*
+git commit -m "add js files"
+git push
+git checkout master
+git merge architecture
+git branch architecture -d
+
+
+2. Rebase
+git branch button
+git checkout button
+git rebase master
+git commit -m "chaning green button"
+git push origin button
+git branch button -d
+
+3. Tag
+git tag -a 1.2 -m "demo version new"
+git push origin 1.2
+
+4. Submodule
+git submodule add https://github.com/jquery/jquery.git
+
+
+5. Git Pages
+git branch gh-pages
+git checkot gh-pages
+git merge master
+git commit -m ""
+git push
+
+
+6. Conflict
+git branch conflict
+git checkout master
+git commit
+git push
+git pull
